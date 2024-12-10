@@ -1,0 +1,29 @@
+*{ 
+    font-family: Arial, Helvetica, sans-serif;
+} /*utilizamos o * que significa seletor universal , aqui estou dizendo que todos os elementos da pagina terão esta fonte arial*/
+
+p{
+            color:blue
+ } /*Essa é setetor de tag onde selecionamos a tag P*/
+
+ a{
+    color: red;
+ }
+
+#paragrafo1 {
+font-weight: bold;
+}/*utilizando # o sistema ja reconhece que estamos nos referindo a um ID*/
+
+.negrito{
+    font-weight: bold;
+} /*usando o . referenciamos a classe, conseguimos criar regras css e aplicar em elementos diferentes , assim como calsse negrito no html*/
+
+p + a{
+    font-weight: bold;
+    color: green;
+} /*usando o + irmao adjacente somente o A adjacente ao P mudara , se eu usar o TIO(seletor irmão ) ai todos os A que tiver depos de P mudarão*/
+
+p > a{
+    font-weight: bold;
+    color: purple;
+}/*filhos, mudo a cor do link por ele ser filho de P , por estar dentro de P ele se torna filho*/
